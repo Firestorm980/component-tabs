@@ -73,12 +73,7 @@
 	padding: 15px
 }
 .tab-content[aria-hidden=true] {
-		left: -999em;
-		position: absolute;
-		top: -999em;
-	}
-.tab-content.is-active {
-		position: static;
+		display: none;
 	}
 
 
